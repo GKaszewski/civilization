@@ -1,0 +1,1 @@
+uvx files-to-prompt Civilization.Core GodotIntegration -o civ_codebase.txt --ignore bin* --ignore *.dll --ignore *.cache --ignore *.pdb --ignore *.uid --ignore obj*

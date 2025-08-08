@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cty4sa1bq3obk"]
+
+[ext_resource type="Texture2D" uid="uid://chkaihrs4nd65" path="res://Sprites/settler.webp" id="1_7g07s"]
+
+[node name="UnitView" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.005, 0.005)
+texture = ExtResource("1_7g07s")

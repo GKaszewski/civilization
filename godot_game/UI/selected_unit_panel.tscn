@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://na1o6j7stseb"]
+
+[ext_resource type="Script" uid="uid://c3mt3skudb7ky" path="res://GodotIntegration/SelectedUnitPanel.cs" id="1_sosfk"]
+
+[node name="SelectedUnitPanel" type="MarginContainer" node_paths=PackedStringArray("UnitInfoLabel", "SettleButton")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+script = ExtResource("1_sosfk")
+UnitInfoLabel = NodePath("UnitInfoLabel")
+SettleButton = NodePath("SettleButton")
+
+[node name="UnitInfoLabel" type="Label" parent="."]
+layout_mode = 2
+size_flags_vertical = 0
+text = "Unit name"
+
+[node name="SettleButton" type="Button" parent="."]
+layout_mode = 2
+size_flags_vertical = 8
+text = "Settle city"
