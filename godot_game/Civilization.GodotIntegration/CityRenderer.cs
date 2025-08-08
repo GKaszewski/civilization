@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Civilization.Core.Game;
+using Civilization.GodotIntegration.Utils;
 using Godot;
 
 namespace Civilization.GodotIntegration;
@@ -20,7 +21,7 @@ public partial class CityRenderer : Node2D
         foreach (var city in state.Cities)
         {
             var cityNode = CityScene.Instantiate<Node2D>();
-            cityNode.Position = MapRenderer.MapToWorld(city.Position);
+            cityNode.Position = MapRenderer.MapToWorld(city.Position.ToGodot());
             AddChild(cityNode);
             _cityViews[city.Id] = cityNode;
         }

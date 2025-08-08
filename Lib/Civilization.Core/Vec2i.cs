@@ -7,6 +7,9 @@ public readonly struct Vec2I(int x, int y) : IEquatable<Vec2I>
 
     public static Vec2I operator +(Vec2I a, Vec2I b) => new(a.X + b.X, a.Y + b.Y);
     public static Vec2I operator -(Vec2I a, Vec2I b) => new(a.X - b.X, a.Y - b.Y);
+    
+    public static bool operator ==(Vec2I left, Vec2I right) => left.Equals(right);
+    public static bool operator !=(Vec2I left, Vec2I right) => !left.Equals(right);
 
     public override string ToString() => $"({X}, {Y})";
     public bool Equals(Vec2I other) => X == other.X && Y == other.Y;

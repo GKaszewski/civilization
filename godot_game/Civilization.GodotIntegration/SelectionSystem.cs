@@ -1,6 +1,7 @@
 using System.Linq;
 using Civilization.Core.Game;
 using Civilization.Core.Units;
+using Civilization.GodotIntegration.Utils;
 using Godot;
 
 namespace Civilization.GodotIntegration;
@@ -13,7 +14,8 @@ public partial class SelectionSystem : Node2D
 
     public bool TrySelectUnitAt(Vector2I tilePos, GameState state)
     {
-        var unit = state.GetUnitsForPlayer(state.CurrentPlayer.Id).FirstOrDefault(u => u.Position == tilePos);
+        var coreTilePos = tilePos.ToCore();
+        var unit = state.GetUnitsForPlayer(state.CurrentPlayer.Id).FirstOrDefault(u => u.Position == coreTilePos);
         if (unit == null) return false;
         
         SelectedUnit = unit;

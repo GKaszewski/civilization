@@ -14,7 +14,7 @@ public partial class UiController : Node
 
     public override void _Ready()
     {
-        UnitPanel.OnSettleClicked = TrySettleCity;
+        // UnitPanel.OnSettleClicked = TrySettleCity;
     }
     
     public override void _Process(double delta)

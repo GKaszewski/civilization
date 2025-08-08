@@ -3,6 +3,7 @@ using Civilization.Core;
 using Civilization.Core.Game;
 using Civilization.Core.Grid;
 using Civilization.Core.Units;
+using Civilization.GodotIntegration.Utils;
 using Godot;
 
 namespace Civilization.GodotIntegration;
@@ -26,8 +27,8 @@ public partial class GameController : Node
 
         var players = new List<Player>
         {
-            new Player(0, "Player 1", Colors.Red),
-            new Player(1, "Player 2", Colors.Blue)
+            new Player(0, "Player 1", Colors.Red.ToCore()),
+            new Player(1, "Player 2", Colors.Blue.ToCore())
         };
 
         var gameState = new GameState(gameMap, players);
@@ -38,7 +39,7 @@ public partial class GameController : Node
         InputSystem.OnStateChanged = Redraw;
 
         // Add one settler to start
-        var settler = new Unit(0, UnitType.Settler, new Vector2I(2, 2));
+        var settler = new Unit(0, UnitType.Settler, new Vector2I(2, 2).ToCore());
         gameState.AddUnit(settler);
         GD.Print($"Added settler unit at {settler.Position}");
 

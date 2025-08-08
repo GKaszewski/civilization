@@ -1,5 +1,6 @@
 using System;
 using Civilization.Core.Actions;
+using Civilization.GodotIntegration.Utils;
 using Godot;
 
 namespace Civilization.GodotIntegration;
@@ -31,7 +32,7 @@ public partial class InputSystem : Node
         if (selected != null)
         {
             if (!isRightClick) return;
-            var move = new MoveUnitAction(selected.Id, position);
+            var move = new MoveUnitAction(selected.Id, position.ToCore());
             
             if (!move.CanExecute(context)) return;
             

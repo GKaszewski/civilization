@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Civilization.Core.Game;
+using Civilization.GodotIntegration.Utils;
 using Godot;
 
 namespace Civilization.GodotIntegration;
@@ -20,7 +21,7 @@ public partial class UnitRenderer : Node2D
         foreach (var unit in state.Units)
         {
             var unitNode = UnitScene.Instantiate<Node2D>();
-            unitNode.Position = MapRenderer.MapToWorld(unit.Position);
+            unitNode.Position = MapRenderer.MapToWorld(unit.Position.ToGodot());
             AddChild(unitNode);
             _unitViews[unit.Id] = unitNode;
         }

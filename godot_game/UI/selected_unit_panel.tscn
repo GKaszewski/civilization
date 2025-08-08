@@ -1,8 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://na1o6j7stseb"]
 
-[ext_resource type="Script" uid="uid://c3mt3skudb7ky" path="res://GodotIntegration/SelectedUnitPanel.cs" id="1_sosfk"]
+[ext_resource type="Script" uid="uid://qqlmdir1bdjd" path="res://Civilization.GodotIntegration/SelectedUnitPanel.cs" id="1_sosfk"]
 
-[node name="SelectedUnitPanel" type="MarginContainer" node_paths=PackedStringArray("UnitInfoLabel", "SettleButton")]
+[node name="SelectedUnitPanel" type="MarginContainer"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -13,8 +13,6 @@ theme_override_constants/margin_top = 8
 theme_override_constants/margin_right = 8
 theme_override_constants/margin_bottom = 8
 script = ExtResource("1_sosfk")
-UnitInfoLabel = NodePath("UnitInfoLabel")
-SettleButton = NodePath("SettleButton")
 
 [node name="UnitInfoLabel" type="Label" parent="."]
 layout_mode = 2

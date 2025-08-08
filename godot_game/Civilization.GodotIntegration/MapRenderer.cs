@@ -1,4 +1,5 @@
 using Civilization.Core;
+using Civilization.GodotIntegration.Utils;
 using Godot;
 
 namespace Civilization.GodotIntegration;
@@ -33,7 +34,7 @@ public partial class MapRenderer : Node2D
             var pos = tile.Position;
             var tileId = (int)tile.Type + TileIndexOffset;
             var atlasCoords = tileSetSource.GetTileId(tileId);
-            TileMapLayer.SetCell(pos, tileId, atlasCoords);
+            TileMapLayer.SetCell(pos.ToGodot(), tileId, atlasCoords);
         }
     }
     
