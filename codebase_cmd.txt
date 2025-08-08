@@ -1,0 +1,1 @@
+uvx files-to-prompt . -o civ_codebase.txt -e cs

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{F2AAD021-D793-4910-ADA2-9A655FAA3671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.Core", "Lib\Civilization.Core\Civilization.Core.csproj", "{1947734F-D4AF-4B96-B576-1785A518CB06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.Shared", "Lib\Civilization.Shared\Civilization.Shared.csproj", "{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.Server", "Lib\Civilization.Server\Civilization.Server.csproj", "{A210FD70-21DB-4D70-8E05-851C6BE9DF00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "godot_game", "godot_game", "{00F50C86-6B92-4850-9DD3-B183DAB900BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.GodotIntegration", "godot_game\Civilization.GodotIntegration\Civilization.GodotIntegration.csproj", "{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1947734F-D4AF-4B96-B576-1785A518CB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1947734F-D4AF-4B96-B576-1785A518CB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1947734F-D4AF-4B96-B576-1785A518CB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1947734F-D4AF-4B96-B576-1785A518CB06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A210FD70-21DB-4D70-8E05-851C6BE9DF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A210FD70-21DB-4D70-8E05-851C6BE9DF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A210FD70-21DB-4D70-8E05-851C6BE9DF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A210FD70-21DB-4D70-8E05-851C6BE9DF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1947734F-D4AF-4B96-B576-1785A518CB06} = {F2AAD021-D793-4910-ADA2-9A655FAA3671}
+		{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C} = {F2AAD021-D793-4910-ADA2-9A655FAA3671}
+		{A210FD70-21DB-4D70-8E05-851C6BE9DF00} = {F2AAD021-D793-4910-ADA2-9A655FAA3671}
+		{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79} = {00F50C86-6B92-4850-9DD3-B183DAB900BA}
+	EndGlobalSection
+EndGlobal
