@@ -27,8 +27,8 @@ tile_map_data = PackedByteArray("AADj/+j/AQAAAAAAAADj/+n/AQAAAAAAAADj/+r/AQAAAAA
 
 [node name="MapRenderer" type="Node2D" parent="." node_paths=PackedStringArray("TileMapLayer")]
 script = ExtResource("2_5a7ea")
-TileSet = ExtResource("2_8j60k")
 TileMapLayer = NodePath("../TileMapLayer")
+TileSet = ExtResource("2_8j60k")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(30, 30)

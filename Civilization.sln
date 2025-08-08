@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{F2AAD021-D793-4910-ADA2-9A655FAA3671}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{FC1FAD89-AEAA-4873-8CAD-D586E9776FD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.Core", "Lib\Civilization.Core\Civilization.Core.csproj", "{1947734F-D4AF-4B96-B576-1785A518CB06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.Core", "Lib\Civilization.Core\Civilization.Core.csproj", "{BDB56C1A-FE23-4F49-A713-AF6121E79651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.Shared", "Lib\Civilization.Shared\Civilization.Shared.csproj", "{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.Shared", "Lib\Civilization.Shared\Civilization.Shared.csproj", "{2776AAB2-6500-4976-8E5F-0A67D52ED428}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.Server", "Lib\Civilization.Server\Civilization.Server.csproj", "{A210FD70-21DB-4D70-8E05-851C6BE9DF00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.Server", "Lib\Civilization.Server\Civilization.Server.csproj", "{5929BEC7-1832-4C9E-A6E0-F750ED57C414}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "godot_game", "godot_game", "{00F50C86-6B92-4850-9DD3-B183DAB900BA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.GodotIntegration", "godot_game\Civilization.GodotIntegration\Civilization.GodotIntegration.csproj", "{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Civilization.GodotIntegration", "godot_game\Civilization.GodotIntegration.csproj", "{3B32AE10-5C0C-4D72-8E5C-B17E29065A6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,27 +22,26 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1947734F-D4AF-4B96-B576-1785A518CB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1947734F-D4AF-4B96-B576-1785A518CB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1947734F-D4AF-4B96-B576-1785A518CB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1947734F-D4AF-4B96-B576-1785A518CB06}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A210FD70-21DB-4D70-8E05-851C6BE9DF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A210FD70-21DB-4D70-8E05-851C6BE9DF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A210FD70-21DB-4D70-8E05-851C6BE9DF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A210FD70-21DB-4D70-8E05-851C6BE9DF00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BDB56C1A-FE23-4F49-A713-AF6121E79651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB56C1A-FE23-4F49-A713-AF6121E79651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB56C1A-FE23-4F49-A713-AF6121E79651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB56C1A-FE23-4F49-A713-AF6121E79651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2776AAB2-6500-4976-8E5F-0A67D52ED428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2776AAB2-6500-4976-8E5F-0A67D52ED428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2776AAB2-6500-4976-8E5F-0A67D52ED428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2776AAB2-6500-4976-8E5F-0A67D52ED428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5929BEC7-1832-4C9E-A6E0-F750ED57C414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5929BEC7-1832-4C9E-A6E0-F750ED57C414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5929BEC7-1832-4C9E-A6E0-F750ED57C414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5929BEC7-1832-4C9E-A6E0-F750ED57C414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B32AE10-5C0C-4D72-8E5C-B17E29065A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B32AE10-5C0C-4D72-8E5C-B17E29065A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B32AE10-5C0C-4D72-8E5C-B17E29065A6D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B32AE10-5C0C-4D72-8E5C-B17E29065A6D}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{1947734F-D4AF-4B96-B576-1785A518CB06} = {F2AAD021-D793-4910-ADA2-9A655FAA3671}
-		{EC2DA10E-1661-4CD3-AF51-59F2A7E6D74C} = {F2AAD021-D793-4910-ADA2-9A655FAA3671}
-		{A210FD70-21DB-4D70-8E05-851C6BE9DF00} = {F2AAD021-D793-4910-ADA2-9A655FAA3671}
-		{CD0D5AD9-EFF3-4DD8-A629-5CB8A898AE79} = {00F50C86-6B92-4850-9DD3-B183DAB900BA}
+		{BDB56C1A-FE23-4F49-A713-AF6121E79651} = {FC1FAD89-AEAA-4873-8CAD-D586E9776FD5}
+		{2776AAB2-6500-4976-8E5F-0A67D52ED428} = {FC1FAD89-AEAA-4873-8CAD-D586E9776FD5}
+		{5929BEC7-1832-4C9E-A6E0-F750ED57C414} = {FC1FAD89-AEAA-4873-8CAD-D586E9776FD5}
 	EndGlobalSection
 EndGlobal

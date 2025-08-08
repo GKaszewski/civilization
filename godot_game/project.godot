@@ -12,13 +12,12 @@ config_version=5
 
 config/name="civilization"
 run/main_scene="uid://dy20m1dgo6mqq"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+config/features=PackedStringArray("4.4", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [dotnet]
 
 project/assembly_name="Civilization.GodotIntegration"
-project/solution_directory="res://../"
 
 [rendering]
 
